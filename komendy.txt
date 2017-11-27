@@ -1,0 +1,18 @@
+
+// autoprefixer
+
+node_modules/.bin/autoprefixer-cli -o main-prefixed.css style.css
+
+//nu-html-checker
+
+node_modules/.bin/nu-html-checker *.html
+
+
+//nu-html-checker ERROR
+
+fault.html
+1:1-16  error  Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.
+
+index.html
+No validation errors found!
+
