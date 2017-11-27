@@ -41,3 +41,15 @@ body {
 .container p:nth-of-type(even) {
     padding-left: 150px;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.gallery img {
+    margin: 2px 2px;
+
+}
