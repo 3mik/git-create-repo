@@ -46,3 +46,13 @@ body {
         }
     }
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+    img {
+        margin: 2px 2px;
+    }
+}
